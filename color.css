@@ -546,13 +546,13 @@ font-family: 'Times New Roman', Times, serif;
         color: gray;
         margin-right: 20px;
         margin-left:10px;
-        margin-top: 200px;
-        font-size:20px;
+        margin-top: 300px;
+        font-size:10px;
     }
     
     .Descripcion{
         margin-left:10px;
-        margin-right: 380px;
+        margin-right: 240px;
         font-size: 10px;
         color:gray;   
     }
@@ -623,16 +623,17 @@ font-family: 'Times New Roman', Times, serif;
         padding: 20px;
         font-size: 10px;
         width: 150px;
+        height: 60px;
         border:none;
         border-radius:10px;
     }
     
     .imagen img{
         float:right;
-        margin-right: 40px;
+        margin-right: 20px;
         width: 200px;
         height: 200px;
-        margin-top: -100px;
+        margin-top: -140px;
     }
     
     .linea{
@@ -652,22 +653,23 @@ font-family: 'Times New Roman', Times, serif;
     .lista li::before{
         content: '✔';
         color:rgb(130, 246, 130);
-        margin-right: 8px;
+        margin-right: 2px;
+
     }
     
     .elemento1{
-        margin-left:10px;
         font-size: 10px;
+        margin-left: -2px;
     }
     
     .elemento2{
-        margin-left:10px;
         font-size: 10px;
+        margin-left: -2px;
     }
     
     .elemento_principal{
-        margin-left: 10px;
         font-size: 10px;
+        margin-left: -2px;
     }
     
     .titulo2{
