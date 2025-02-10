@@ -204,6 +204,19 @@ font-family: 'Times New Roman', Times, serif;
     color:rgb(156, 156, 156);
 }
 
+.boton3{
+    margin-left:20px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    border:none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.boton3:hover{
+    color:rgb(156, 156, 156);
+}
+
 .vertical{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -493,6 +506,23 @@ font-family: 'Times New Roman', Times, serif;
         background-color: white;
     }
     
+    .boton2:hover{
+        color:rgb(156, 156, 156);
+    }
+
+    .boton3{
+        margin-left:20px;
+        color: gray;
+        font-family: 'Times New Roman', Times, serif;
+        border:none;
+        background-color: white;
+        cursor: pointer;
+    }
+    
+    .boton3:hover{
+        color:rgb(156, 156, 156);
+    }
+
     .vertical{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -581,8 +611,8 @@ font-family: 'Times New Roman', Times, serif;
         color: gray;
         margin-right: 20px;
         margin-left:10px;
-        margin-top: 300px;
-        font-size:10px;
+        margin-top: 50px;
+        font-size:18px;
     }
     
     .Descripcion{
@@ -715,49 +745,6 @@ font-family: 'Times New Roman', Times, serif;
         justify-content: center; /*centrar en medio*/
     }
     
-    .fijo{
-        background-color: white;
-    }
-    
-    .fijo ul{
-        top:-20px;
-        position: fixed;
-        background-color: white;
-    }
-    
-    .fijo li{
-        display:inline-block ;
-        margin-left: 20px;
-        margin-top: -10px;
-    }
-    
-    .fijo li::before{
-        margin-left: 20px;
-    }
-    
-    .fijo button{
-        display:inline-block ;
-        font-size: 8px;
-    }
-    
-    .boton1{
-        margin-left:80px;
-        width: 80px;
-        height: 40px;
-        font-family: 'Times New Roman', Times, serif;
-        border: 1px solid blue;
-        background-color: blue;
-        color: white;
-        border-radius: 6px;
-    }
-    
-    .boton2{
-        margin-left:8px;
-        color: gray;
-        font-family: 'Times New Roman', Times, serif;
-        border:none;
-        background-color: white;
-    }
     
     .vertical{
         display: inline;
@@ -805,6 +792,23 @@ font-family: 'Times New Roman', Times, serif;
         margin-bottom:40px;
     }
     
+    .boton2:hover{
+        color:rgb(156, 156, 156);
+    }
+
+    .boton3{
+        margin-left:20px;
+        color: gray;
+        font-family: 'Times New Roman', Times, serif;
+        border:none;
+        background-color: white;
+        cursor: pointer;
+    }
+    
+    .boton3:hover{
+        color:rgb(156, 156, 156);
+    }
+
     .forma{
         font-size: 20px;
         margin-left:10px;
@@ -852,4 +856,45 @@ font-family: 'Times New Roman', Times, serif;
         color: #d2440b;
         transform: scale(1.05); /* Efecto de agrandamiento suave */
     }
+
+    .fijo {
+        position: relative;
+        display: inline-block;
+      }
+  
+      /* Botón del menú */
+      .menu {
+        background-color: #333;
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        cursor: pointer;
+        display: block;
+      }
+  
+      /* Estilo de la lista desplegable */
+      .mostrar {
+        display: none;
+        position: absolute;
+        background-color: #444;
+        min-width: 150px;
+        z-index: 1;
+      }
+  
+      .mostrar button {
+        color: gray;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+      }
+  
+      .mostrar button:hover {
+        background-color: #666;
+      }
+  
+      /* Mostrar el menú al pasar el ratón */
+      .fijo:hover .mostrar {
+        display: block;
+      }
+    
 }
