@@ -20,6 +20,7 @@ html, body {
 margin-left:120px;
 font-size: 20px;
 color:gray;
+margin-right: 1100px;
 }
 
 .resaltar{
@@ -90,6 +91,11 @@ border-radius: 10px;
     width: 300px;
     border:none;
     border-radius:10px;
+    cursor:pointer;
+}
+
+.boton:hover{
+    background-color:rgb(75, 75, 250);
 }
 
 .imagen img{
@@ -178,6 +184,11 @@ font-family: 'Times New Roman', Times, serif;
     background-color: blue;
     color: white;
     border-radius: 6px;
+    cursor:pointer;
+}
+
+.boton1:hover{
+    background-color:rgb(75, 75, 250);
 }
 
 .boton2{
@@ -186,6 +197,11 @@ font-family: 'Times New Roman', Times, serif;
     font-family: 'Times New Roman', Times, serif;
     border:none;
     background-color: white;
+    cursor: pointer;
+}
+
+.boton2:hover{
+    color:rgb(156, 156, 156);
 }
 
 .vertical{
@@ -201,6 +217,7 @@ font-family: 'Times New Roman', Times, serif;
     align-items: center;
     color: gray;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 .scroll > * {
@@ -208,11 +225,17 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 .scroll1{
-    margin-left: 250px;
+    margin-left: 270px;
+}
+
+.scroll2{
+   text-align: center;
+   margin-right: 120px;
+   margin-left: 120px;
 }
 
 .scroll3{
-    margin-right: 250px;
+    margin-right: 270px;
 }
 
 .empieza{
@@ -224,6 +247,12 @@ font-family: 'Times New Roman', Times, serif;
     display: center;
     width: 200px;
     height: 50px;
+    cursor:pointer;
+}
+
+.empieza:hover{
+    color:red;
+    border-color: red;
 }
 
 .boton2{
@@ -257,7 +286,7 @@ font-family: 'Times New Roman', Times, serif;
 .video2{
     margin-top: -120px;
     margin-bottom: -120px;
-    margin-left: 120px;
+    margin-right:240px;
 }
 
 .contorno{
@@ -271,7 +300,13 @@ font-family: 'Times New Roman', Times, serif;
     color: #d2440b;
     transform: scale(1.05); /* Efecto de agrandamiento suave */
 }
-    
+
+.Descripcion2{
+    color:gray;
+    margin-right: 180px;
+    font-size:20px;
+    margin-left: 120px;
+}
 }
 
 @media (max-width: 1000px){
